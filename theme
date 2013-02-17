@@ -90,13 +90,13 @@ Define = "BaseButtons" {
       Button = "1" { Actions = "Set Iconified" }
     }
       
-    #Left = "Shade" {
-        #Focused = "Image button.png"
-        #Unfocused = "Image button_unfocus.png"
-        #Hoover = "Image button_hover.png"
-        #Pressed = "Image button_press.png"
-        #Button = "1" { Actions = "Toggle Shaded" }
-    #}
+    Left = "Shade" {
+        Focused = "Image shade-active.png"
+        Unfocused = "Image shade-active.png"
+        Hoover = "Image shade-hover.png"
+        Pressed = "Image shade-pressed.png"
+        Button = "1" { Actions = "Toggle Shaded" }
+    }
   }
 }
 
