@@ -4,7 +4,7 @@
 # Homepage: http://fedemp.com.ar
 # Email: f@fedemp.com.ar
 
-$FONT = "XFT#Droid Sans:size=10#Left"
+$FONT = "XFT#Droid Sans:size=9#Left"
 $FONT_TITLE = "XFT#Droid Sans:bold:size=9#Center"
 
 Require {
@@ -183,28 +183,28 @@ Harbour {
 }
 
 Menu {
-  Pad = "0 0 4 4" 
+  Pad = "4 4 4 4" 
 
   Focused {
     Font = "$FONT"
-    Background = "Solid #f9f9f9"
+    Background = "Solid #f4f4f4"
     Item = "Empty"
-    Text = "#8b8b89" 
-    Separator = "Image menuline.png#Scaled"
+    Text = "#484848" 
+    Separator = "Image menuline.png"
     Arrow = "Image arrow.png"
   }
   Unfocused {
     Font = "$FONT"
-    Background = "Solid #f9f9f9"
+    Background = "Solid #f4f4f4"
     Item = "Empty"
-    Text = "#777777"
-    Separator = "Image menuline.png#Scaled"
+    Text = "#484848"
+    Separator = "Image menuline.png"
     Arrow = "Image arrow.png"
   }
   Selected {
     Font = "$FONT"
-    Background = "Solid #f88408"
-    Item = "Image item_focus.png"
+    Background = "Solid #2a75c4"
+    Item = "Image item_focus.png#Scaled"
     Text = "#ffffff"
     Arrow = "Image arrow_focus.png"
   }
@@ -213,7 +213,7 @@ Menu {
 CmdDialog {
   Font = "$FONT"
   Texture = "Solid #ffffff"
-  Text = "#686868"
+  Text = "#000000"
   Pad = "3 0 1 10"
 }
 
