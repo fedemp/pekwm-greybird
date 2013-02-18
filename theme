@@ -203,7 +203,7 @@ Menu {
   }
   Selected {
     Font = "$FONT"
-    Background = "Solid #2a75c4"
+    Background = "Solid #f4f4f4"
     Item = "Image item_focus.png#Scaled"
     Text = "#ffffff"
     Arrow = "Image arrow_focus.png"
