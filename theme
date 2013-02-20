@@ -183,7 +183,7 @@ Harbour {
 }
 
 Menu {
-  Pad = "4 4 4 4" 
+  Pad = "8 8 8 4" 
 
   Focused {
     Font = "$FONT"
