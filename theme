@@ -2,7 +2,8 @@
 # License: GPL
 # Author: Federico Panico
 # Homepage: http://fedemp.com.ar
-# Email: f@fedemp.com.ar
+# Email: fedemp@fedemp.com.ar
+# Description: A port of the greybird theme at http://shimmerproject.org/project/greybird/ to pekwm
 
 $FONT = "XFT#Droid Sans:size=9#Left"
 $FONT_TITLE = "XFT#Droid Sans:bold:size=9#Center"
@@ -17,12 +18,12 @@ Define = "BaseDecor" {
   # Increase first number to bring title text downwards
   Pad = "4 5 5 0"
 
-  Focused = "Image title.png" #
+  Focused = "Image title.png"
   Unfocused = "Image title.png"
 
   Tab {
-    Focused = "Image title.png" #
-    FocusedSelected = "Image title.png" #
+    Focused = "Image title.png"
+    FocusedSelected = "Image title.png"
     Unfocused = "Image title_unfocus.png"
     UnfocusedSelected = "Image title_unfocus.png"
   }
@@ -35,14 +36,14 @@ Define = "BaseDecor" {
   }
   FontColor {
     Focused = "#686868 #ffffff"
-    FocusedSelected = "#686868 #ffffff" #
+    FocusedSelected = "#686868 #ffffff"
     Unfocused = "#777777"
     UnfocusedSelected = "#777777"
   }
   Border {
     Focused {
       TopLeft = "Image top-left.png"
-      Top = "Image top-border.png" #
+      Top = "Image top-border.png"
       TopRight = "Image top-right.png"
       Left =  "Image left-border.png"
       Right = "Image right-border.png"
@@ -66,7 +67,7 @@ Define = "BaseDecor" {
 Define = "BaseButtons" {
   Buttons {
     Right = "Close" {
-      Focused = "Image close-active.png" #
+      Focused = "Image close-active.png"
       Unfocused = "Image close-active.png"
       Hoover = "Image close-hover.png"
       Pressed = "Image close-pressed.png"
@@ -89,7 +90,7 @@ Define = "BaseButtons" {
       Pressed = "Image hide-pressed.png"
       Button = "1" { Actions = "Set Iconified" }
     }
-      
+
     Left = "Shade" {
         Focused = "Image shade-active.png"
         Unfocused = "Image shade-active.png"
@@ -125,7 +126,7 @@ Define = "EmptyDecor" {
     FocusedSelected = "Empty"
     Unfocused = "Empty"
     UnfocusedSelected = "Empty"
-  }    
+  }
 
   Border {
     Focused {
@@ -183,13 +184,13 @@ Harbour {
 }
 
 Menu {
-  Pad = "3 3 4 4" 
+  Pad = "3 3 4 4"
 
   Focused {
     Font = "$FONT"
     Background = "Solid #f4f4f4"
     Item = "Empty"
-    Text = "#484848" 
+    Text = "#484848"
     Separator = "Image menuline.png"
     Arrow = "Image arrow.png"
   }
