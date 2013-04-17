@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Federic Panico -- the porter -- @jsishard
+
+# THANKS
+
+    The Shimmer Project
+
+# TECHNOLOGY COLOPHON
+
+    Twitter Bootstrap
+    H5BP
